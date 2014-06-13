@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{34A7938A-A821-4AAD-8F02-A044CDA6A672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Grunt", "Grunt", "{F34B1447-4ABF-4A60-9793-B9304E64157F}"
+	ProjectSection(SolutionItems) = preProject
+		gruntfile.js = gruntfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grunt-Tasks", "Grunt-Tasks\Grunt-Tasks.csproj", "{732AEE68-39D0-47AD-B1F3-89ED72ECC2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34A7938A-A821-4AAD-8F02-A044CDA6A672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A7938A-A821-4AAD-8F02-A044CDA6A672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A7938A-A821-4AAD-8F02-A044CDA6A672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A7938A-A821-4AAD-8F02-A044CDA6A672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732AEE68-39D0-47AD-B1F3-89ED72ECC2DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732AEE68-39D0-47AD-B1F3-89ED72ECC2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732AEE68-39D0-47AD-B1F3-89ED72ECC2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732AEE68-39D0-47AD-B1F3-89ED72ECC2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
